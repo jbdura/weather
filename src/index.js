@@ -17,7 +17,10 @@ weather.temperature = {
 const kelvin = 273
 
 // API
-const api = "82005d27a116c2880c8f0fcb866998a0"
+const apiKey = "82005d27a116c2880c8f0fcb866998a0"
+
+// "c87292305339360852056b3204d4f50e"
+
 
 // geolocation
 if('geolocation' in navigator) {
@@ -42,9 +45,16 @@ function showError(error) {
 
 // API
 function getWeather(latitude, longitude) {
-	let api = `http://api.openweathermap.org/data/2.5//weather?lat=${latitude}&lon=${longitude}&appid=${api}`
+	let api = `https://api.openweathermap.org/data/2.5//weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`
 	// `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&long=${longitude}&appid=${api}`
 
-	console.log(api)
+	// console.log(api)
+	.then(function (res) {
+		let data = res.json;
+		return data;
+	})
+	.then(function (data) {
+		
+	})
 }
 
