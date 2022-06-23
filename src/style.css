@@ -3,7 +3,9 @@
 }
 
 body{
-    background-color: #293251;
+    justify-content: center;
+    /* background-color: #293251; */
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143))
 }
 
 .container{
@@ -45,9 +47,10 @@ body{
 }
 
 .weather-container{
-    width: 300px;
+    width: auto;
     height: 260px;
-    background-color: #F4F9FF;
+    background-color: (rgb(47, 150, 163));
+     /* #F4F9FF; */
 }
 
 .weather-icon{
