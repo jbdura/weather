@@ -83,11 +83,11 @@ body{
     font-size: 0.5em;
 }
 
-.temperature-description{
+/* .temperature-desc{
     
-}
+} */
 
-.temperature-description p{
+.temperature-desc p{
     padding: 8px;
     margin: 0;
     color: #293251;
@@ -95,9 +95,9 @@ body{
     font-size: 1.2em;
 }
 
-.location{
+/* .location{
     
-}
+} */
 
 .location p{
     margin: 0;
