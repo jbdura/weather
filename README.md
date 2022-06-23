@@ -7,3 +7,5 @@ The app can change the temperature from the default (Celsius) to Fahrenheit on c
 
 # Author: Johnson Bidura
 
+# Website:
+https://jbdura.github.io/weather/
