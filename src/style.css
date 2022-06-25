@@ -3,9 +3,10 @@
 }
 
 body{
-    justify-content: center;
+    /* justify-content: center; */
     /* background-color: #293251; */
-    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143))
+    /* background-image: image(s); */
+    background:rgb(46, 183, 201);
 }
 
 .container{
@@ -47,9 +48,9 @@ body{
 }
 
 .weather-container{
-    width: auto;
+    width: 300px;
     height: 260px;
-    background-color: (rgb(47, 150, 163));
+    background-color: (rgb(4, 37, 42));
      /* #F4F9FF; */
 }
 
@@ -109,3 +110,8 @@ body{
     text-align: center;
     font-size: 0.8em;
 }
+
+/* #background-image{
+    display: inline-block;
+    src: url('./img/day-time.png');
+} */
