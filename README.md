@@ -11,3 +11,5 @@ Also has a clock based on the browser time settings.
 
 # Website:
 https://jbdura.github.io/weather/
+
+https://roadmap.sh/projects/weather-app
